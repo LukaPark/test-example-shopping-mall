@@ -1,5 +1,6 @@
 import '@testing-library/jest-dom';
 
+// 테스트가 실행되기 전에 jest 가 초기화 되는 부분이나 설정을 추가할 수 있습니다.
 afterEach(() => {
   vi.clearAllMocks();
 });
